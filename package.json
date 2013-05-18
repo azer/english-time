@@ -1,6 +1,6 @@
 {
   "name": "english-time",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Parses times written in simple English to unix time",
   "main": "index.js",
   "scripts": {
@@ -10,9 +10,9 @@
     "fox": "*"
   },
   "repository": {
-    "url": "git@github.com:azer\/english-time.git",
+    "url": "git@github.com:azer/english-time.git",
     "type": "git"
   },
-  "author": "Azer Ko\u00e7ulu <azer@kodfabrik.com>",
+  "author": "Azer Koçulu <azer@kodfabrik.com>",
   "license": "BSD"
 }
