@@ -11,7 +11,7 @@ time('314 milliseconds')
 time('5 minutes 15 seconds')
 // => 315000
 
-time('1 hour, 5 minutes and 15 seconds')
+time('1 Hour, 5 Minutes And 15 Seconds')
 // => 3915000
 
 time('2h 15m 15s')
