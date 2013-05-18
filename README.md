@@ -15,6 +15,7 @@ time('1 hour, 5 minutes and 15 seconds')
 // => 3915000
 
 time('2h 15m 15s')
+// => 3915000
 
 time('3 weeks, 5 days, 6 hours')
 // => 2268000000
