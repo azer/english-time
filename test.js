@@ -1,6 +1,9 @@
 var time = require("./");
 
 it('converts time written in english to epoch', function(){
+  expect(time('1 millisecond')).to.equal(1);
+  expect(time('375 milliseconds')).to.equal(375);
+
   expect(time('1 second')).to.equal(1000);
   expect(time('5 Minutes')).to.equal(300000);
   expect(time('5 minutes 15 sEConds')).to.equal(315000);

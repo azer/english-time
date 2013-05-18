@@ -5,8 +5,8 @@ Parses times written in simple English to unix time.
 ```js
 time = require('english-time')
 
-time('1 second')
-// => 1000
+time('314 milliseconds')
+// => 314
 
 time('5 minutes 15 seconds')
 // => 315000
@@ -35,6 +35,14 @@ $ npm install english-time
 
 <a name="ref" />
 ## List of Recognized Unit Aliases
+
+**Milliseconds**
+
+* ms
+* millisec
+* millisecs
+* milliseconds
+* millisecond
 
 **Second(s)**
 
