@@ -19,6 +19,10 @@ time('2h 15m 15s')
 
 time('3 weeks, 5 days, 6 hours')
 // => 2268000000
+
+time('3 weeks, 5d 6h')
+// => 2268000000
+
 ```
 
 See [List of Recognized Unit Aliases](#ref) and tests for more info.
