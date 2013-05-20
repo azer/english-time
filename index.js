@@ -1,3 +1,6 @@
-var parse  = require("./lib/parse");
+var parse   = require("./lib/parse").all,
+    rewrite = require('./lib/rewrite');
 
-module.exports = parse.all;
+module.exports = function(input){
+  return parse(rewrite(input));
+};

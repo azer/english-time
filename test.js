@@ -14,3 +14,17 @@ it('converts time written in english to epoch', function(){
 
   expect(time('3 weeks, 5 days, 6 hours')).to.equal(2268000000);
 });
+
+it('ignores unrecognized patterns', function(){
+  expect(time('every 1 millisecond')).to.equal(1);
+  expect(time('foo, bar12 a3m 1 milliseconds + 5ms + 4ms hello world')).to.equal(10);
+});
+
+it('accepts singular time units without numbers', function(){
+
+  expect(time('millisecond')).to.equal(1);
+  expect(time('a millisecond')).to.equal(1);
+  expect(time('every millisecond')).to.equal(1);
+  expect(time('every minute + 45 seconds')).to.equal(105000);
+
+});
