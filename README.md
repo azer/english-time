@@ -81,4 +81,10 @@ $ npm install english-time
 * week
 * weeks
 
+## Tools & libraries based on english-time
+
+* [shell-jobs](http://github.com/azer/shell-jobs)
+* [after-time](http://github.com/azer/after-time)
+* [run-after](http://github.com/azer/run-after)
+
 ![](https://dl.dropboxusercontent.com/s/4fbzg1r7h91doa4/npmel_19.jpg)
