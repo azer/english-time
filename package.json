@@ -1,6 +1,6 @@
 {
   "name": "english-time",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Parses times written in simple English to unix time",
   "main": "index.js",
   "scripts": {
