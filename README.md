@@ -81,9 +81,10 @@ $ npm install english-time
 * week
 * weeks
 
-## Translation
+## Translations
 
-See [turkish-time](http://github.com/azer/turkish-time)
+* [turkish-time](http://github.com/azer/turkish-time)
+* [kurdish-time](http://github.com/azer/kurdish-time)
 
 ## Tools & libraries based on english-time
 
