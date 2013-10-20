@@ -1,4 +1,4 @@
-## english-time
+## english-time [![Build Status](https://travis-ci.org/azer/english-time.png)](https://travis-ci.org/azer/english-time)
 
 Parses times written in simple English to unix time.
 
