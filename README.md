@@ -81,6 +81,19 @@ $ npm install english-time
 * week
 * weeks
 
+
+**Month(s)**
+
+* mo
+* month
+* months
+
+**Year(s)**
+
+* y
+* year
+* years
+
 ## Translations
 
 * [turkish-time](http://github.com/azer/turkish-time)
