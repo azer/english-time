@@ -16,8 +16,8 @@ it('converts time written in english to epoch', function(){
   expect(time('3 weeks, 5 days, 6 hours')).to.equal(2268000000);
   expect(time('a month')).to.equal(2678400000);
   expect(time('5 months')).to.equal(13392000000);
-  expect(time('one year')).to.equal(31557600000);
-  expect(time('one year and five months')).to.equal(31557600000 + 13392000000);
+  expect(time('one year')).to.equal(32140800000);
+  expect(time('one year and five months')).to.equal(32140800000 + 13392000000);
 });
 
 it('ignores unrecognized patterns', function(){
