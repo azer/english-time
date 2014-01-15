@@ -1,5 +1,13 @@
 var time = require("./");
 
+it('does nothing if input is a number', function(){
+  expect(time(123)).to.equal(123);
+  expect(time(12.3)).to.equal(12.3);
+  expect(time(0)).to.equal(0);
+  expect(time(-123)).to.equal(-123);
+});
+
+
 it('converts time written in english to epoch', function(){
   expect(time('1 millisecond')).to.equal(1);
   expect(time('375 milliseconds')).to.equal(375);
