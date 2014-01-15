@@ -4,10 +4,10 @@
   "description": "Parses times written in simple English to unix time",
   "main": "index.js",
   "scripts": {
-    "test": "fox"
+    "test": "prova"
   },
   "devDependencies": {
-    "fox": "*"
+    "prova": "*"
   },
   "repository": {
     "url": "git@github.com:azer/english-time.git",
